@@ -26,7 +26,7 @@ font-size: larger;
   align-items: center;
   background-color: transparent;
   border-radius: 5px;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-left: 10px;
   margin-right: 10px;
   height: 40px;
@@ -49,18 +49,23 @@ i:hover{
 
 /*DropDown*/
 
-.dropdown .content{
+details{
+  display: block;
   position: absolute;
-  background-color: transparent;
-  align-items: center;
-  display: none;
-  background-color: #ff417a;
-  border-radius: 10px;
 }
 
-.dropdown:hover .content{
-   display: block;
-   margin-right: 50px;
+details > summary{
+  list-style: none;
+}
+
+details a{
+  display: none;
+  text-align: center;
+}
+
+.a{
+  background-color: #ff417a;
+  border-radius: 10px;
 }
 
 .dropdown a{

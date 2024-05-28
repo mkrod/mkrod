@@ -12,20 +12,31 @@
     <body class=body>
 
        <div class="navbar">
-
+        
+        
         <div class="dropdown">
-            <i class="fa-solid fa-bars"></i>
-            <div class="content">
-                <a href="/homepage/profile/profile.html" id="dm">Profiles</a>
+            <details>
+            <summary>
+                <i class="fa-solid fa-bars"></i>
+            </summary>
+
+            <div class="a">      
+                <a href="/homepage/profile/profile.html" id="dm">Profile</a>
                 <a href="/homepage/dashboard/dashboard.html" id="dm">Dashboard</a>
                 <a href="/homepage/settings/settings.html" id="dm">Settings</a>
+                <a href="/homepage/login/login.html" id="dm">Login</a>
+                
             </div>
+
+        </details>
            </div>
+
+        
 
         <h3 id="txt">MkRoDGaminG</h3>
 
         <div>
-            <i class="fa-solid fa-magnifying-glass"></i>   
+            <a href="#search-box"><i class="fa-solid fa-magnifying-glass"></i></a>   
         </div>
 
             </div>
@@ -49,7 +60,16 @@
             <p id="earn">click below to learn about</p>
             <div class="btn"><a href="/homepage/dashboard/dashboard.html"><button id="btn">learn</button></a></div>
             <h4 style="color: #ffffff;">- there is no knowlege that is not power</h4>
-        <div class="b"><input type="search" id="box" placeholder="search"></div>
+
+        <div class="b">
+            <form id="search-form">
+
+            <input type="search" id="search-box" placeholder="type to search">
+            <a href="#search-results"><button id="search-button">search</button></a>
+
+            </form>
+        </div>
+
 
             <p id="r">@ all right reserved</p>
         </div>
