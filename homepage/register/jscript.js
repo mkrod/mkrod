@@ -1,3 +1,0 @@
-$('#country').autocomplete({
-    source:countries
-})

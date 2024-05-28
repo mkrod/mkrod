@@ -1,5 +1,6 @@
 body{
-    background: url(1.jpg);
+    background: url(11.jpg), #000000 no-repeat;
+    backdrop-filter: blur(20px);
 }
 
 h1{
@@ -10,8 +11,10 @@ h1{
 }
 
 .ubox{
-    background-color: transparent;
-    border: groove;
+    background-color: transparent, #000000;
+    border: 2px solid rgba(225, 225, 225, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #ffffff;
     border-radius: 10px;
     height: 200px;
 }
@@ -19,7 +22,7 @@ h1{
 #txt{
     display: flex;
     justify-content: center;
-    font-family: cursive;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 2px;
     color: #ffffff;
 }
@@ -35,9 +38,18 @@ h1{
     font-family: monospace;
 }
 
+#txr{
+    display: flex;
+    margin: 0px;
+    margin-left: 50%;
+    margin-top: 80px;
+}
+
 .dbox{
-    background-color: transparent;
-    border-style: groove;
+    justify-content: baseline;
+    background-color: transparent, #000000;
+    border: 2px solid rgba(225, 225, 225, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     border-radius: 10px;
     height: 250px;
     margin-top: 10px;
@@ -58,7 +70,7 @@ h1{
     justify-content: end;
 }
 
-#hp{
+#lo{
     display: flex;
     justify-content: end;
 }
@@ -71,15 +83,18 @@ h1{
     padding: 10px;
     margin-left: 20px;
     margin-top: 20px;
-    width: 110px;
+    width: 90px;
+    height: 40px;
     border-radius: 10px;
-    background-color: #d66ae4;
+    background-color: #ffffff;
+    color: #ff417a;
     cursor: pointer;
     transition: 0.3s ease;
 }
 
 #home:hover{
-    background-color: #ffffff;
+    background-color: #ff417a;
+    color: #ffffff;
 }
 
 #profile{
@@ -90,15 +105,18 @@ h1{
     margin-top: 20px;
     margin-right: 20px;
     padding: 10px;
-    width: 110px;
+    width: 90px;
+    height: 40px;
     border-radius: 10px;
-    background-color: #d66ae4;
+    background-color: #ffffff;
+    color: #ff417a;
     cursor: pointer;
     transition: 0.3s ease;
 }
 
 #profile:hover{
-    background-color: #ffffff;
+    background-color: #ff417a;
+    color: #ffffff;
 }
 
 #with{
@@ -109,16 +127,18 @@ h1{
     padding: 8px;
     margin-left: 20px;
     margin-top: 60px;
-    width: 110px;
+    width: 90px;
     height: 40px;
     border-radius: 10px;
-    background-color: #d66ae4;
+    background-color: #ffffff;
+    color: #ff417a;
     cursor: pointer;
     transition: 0.3s ease;
 }
 
 #with:hover{
-    background-color: #ffffff;
+    background-color: #ff417a;
+    color: #ffffff;
 }
 
 #recharge{
@@ -129,16 +149,18 @@ h1{
     padding: 8px;
     margin-right: 20px;
     margin-top: 60px;
-    width: 110px;
+    width: 90px;
     height: 40px;
     border-radius: 10px;
-    background-color: #d66ae4;
+    background-color: #ffffff;
+    color: #ff417a;
     cursor: pointer;
     transition: 0.3s ease;
 }
 
 #recharge:hover{
-    background-color: #ffffff;
+    background-color: #ff417a;
+    color: #ffffff;;
 }
 
 #refer{
@@ -149,16 +171,18 @@ h1{
     padding: 8px;
     margin-left: 20px;
     margin-top: 95px;
-    width: 110px;
+    width: 90px;
     height: 40px;
     border-radius: 10px;
-    background-color: #d66ae4;
+    background-color: #ffffff;
+    color: #ff417a;
     cursor: pointer;
     transition: 0.3s ease;
 }
 
 #refer:hover{
-    background-color: #ffffff;
+    background-color: #ff417a;
+    color: #ffffff;
 }
 
 #earn{
@@ -169,16 +193,18 @@ h1{
     padding: 8px;
     margin-right: 20px;
     margin-top: 95px;
-    width: 110px;
+    width: 90px;
     height: 40px;
     border-radius: 10px;
-    background-color: #d66ae4;
+    background-color: #ffffff;
+    color: #ff417a;
     cursor: pointer;
     transition: 0.3s ease;
 }
 
 #earn:hover{
-    background-color: #ffffff;
+    background-color: #ff417a;
+    color: #ffffff;
 }
 
 #contact{
@@ -189,19 +215,21 @@ h1{
     padding: 8px;
     margin-left: 20px;
     margin-top: 130px;
-    width: 110px;
+    width: 90px;
     height: 40px;
     border-radius: 10px;
-    background-color: #d66ae4;
+    background-color: #ffffff;
+    color: #ff417a;
     cursor: pointer;
     transition: 0.3s ease;
 }
 
 #contact:hover{
-    background-color: #ffffff;
+    background-color: #ff417a;
+    color: #ffffff;
 }
 
-#help{
+#logout{
     display: flex;
     position: absolute;
     justify-content: center;
@@ -209,14 +237,16 @@ h1{
     padding: 8px;
     margin-right: 20px;
     margin-top: 130px;
-    width: 110px;
+    width: 90px;
     height: 40px;
     border-radius: 10px;
-    background-color: #d66ae4;
+    background-color: #ffffff;
+    color: #ff417a;
     cursor: pointer;
     transition: 0.3s ease;
 }
 
-#help:hover{
-    background-color: #ffffff;
+#logout:hover{
+    background-color: #ff417a;
+    color: #ffffff;
 }

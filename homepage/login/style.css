@@ -14,15 +14,13 @@ body{
     align-items: center;
     min-height: 100vh;
     background: url(/1.jpg) no-repeat;
+    backdrop-filter: blur(20px);
     background-size: cover;
     background-position: center;
 }
 
 .wrapper {
     width: 420px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     height: 100vh;
     background: transparent;
     border: 2px solid rgba(225, 225, 225, .2);
@@ -79,8 +77,9 @@ body{
 }
 
 .remember-forgot label input{
-    accent-color: #ffffff;
+    accent-color: #ff417a;
     margin-right: 3px;
+    cursor: pointer;
 }
 
 .remember-forgot a{
